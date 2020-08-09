@@ -73,7 +73,7 @@ void load_dalvikvm_properties()
 		property_override_dual("dalvik.vm.heaptargetutilization", "dalvik.vm.heaptargetutilization", "0.46");
 		property_override_dual("dalvik.vm.heapmaxfree", "dalvik.vm.heapmaxfree", "48m");
 	}
-	
+
 	property_override_dual("dalvik.vm.heapgrowthlimit", "dalvik.vm.heapgrowthlimit", "256m");
 	property_override_dual("dalvik.vm.heapsize", "dalvik.vm.heapsize", "512m");
 	property_override_dual("dalvik.vm.heapminfree", "dalvik.vm.heapminfree", "8m");
@@ -83,9 +83,9 @@ void vendor_load_properties()
 {
 	// Load dalvik config
 	load_dalvikvm_properties();
-    
+
     // fingerprint
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys");
     property_override("ro.product.device", "ASUS_Z01R_1");
     property_override("ro.product.model", "Zenfone 5Z");
     property_override("ro.product.brand", "Asus");
