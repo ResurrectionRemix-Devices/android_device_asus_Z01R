@@ -7,12 +7,6 @@
   },
   {
     "remote": "github",
-    "repository": "AruAA/proprietary_vendor_asus",
-    "target_path": "vendor/asus",
-    "branch": "q"
-  },
-  {
-    "remote": "github",
     "repository": "AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf",
     "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
     "branch": "master"
