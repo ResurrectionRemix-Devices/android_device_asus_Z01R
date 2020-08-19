@@ -22,19 +22,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from Z01R device
 $(call inherit-product, device/asus/Z01R/device.mk)
 
-# Inherit some common Evo stuff.
+# Inherit some common RR stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BOOT_ANIMATION_RES_EVO := true
 TARGET_GAPPS_ARCH := arm64
-CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := Z01R
 PRODUCT_MANUFACTURER := Asus
-PRODUCT_NAME := aosp_Z01R
+PRODUCT_NAME := rr_Z01R
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
