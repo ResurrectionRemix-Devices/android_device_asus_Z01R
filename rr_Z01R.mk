@@ -30,6 +30,10 @@ TARGET_INCLUDE_WIFI_EXT := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
+# RR Stuffs
+TARGET_FACE_UNLOCK_SUPPORTED := true
+RR_BUILDTYPE := Official
+
 PRODUCT_DEVICE := Z01R
 PRODUCT_MANUFACTURER := Asus
 PRODUCT_NAME := rr_Z01R
