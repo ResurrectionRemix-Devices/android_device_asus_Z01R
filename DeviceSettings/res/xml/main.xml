@@ -45,8 +45,8 @@
             android:summary="@string/touchscreen_gesture_settings_summary">
             <intent
                     android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.touch.gestures"
-                    android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
+                    android:targetPackage="org.lineageos.lineageparts.gestures"
+                    android:targetClass="org.lineageos.lineageparts.gestures.TouchscreenGestureSettings" />
         </Preference>
     </PreferenceCategory>
 
