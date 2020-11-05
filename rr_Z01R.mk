@@ -34,6 +34,9 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 RR_BUILDTYPE := Official
 
+# RR Wallpapers
+BUILD_RR_WALLPAPERS := true
+
 PRODUCT_DEVICE := Z01R
 PRODUCT_MANUFACTURER := Asus
 PRODUCT_NAME := rr_Z01R
