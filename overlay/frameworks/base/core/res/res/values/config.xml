@@ -707,4 +707,7 @@
     for carrier: independent of carrier provisioning. If false: hard disabled. If true: then depends on carrier provisioning, 
     availability etc -->
     <bool name="config_carrier_wfc_ims_available">true</bool>
+
+    <!-- Advanced restart -->
+    <bool name="config_powermenuadvanceddefault">true</bool>
 </resources>
