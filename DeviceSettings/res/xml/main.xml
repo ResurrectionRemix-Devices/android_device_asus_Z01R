@@ -34,23 +34,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="gestures"
-        android:title="@string/screen_gestures_panel_title">
-
-        <Preference
-            android:key="touchscreen_gesture_settings"
-            android:icon="@drawable/ic_gestures_icon"
-            android:persistent="false"
-            android:title="@string/touchscreen_gesture_settings_title"
-            android:summary="@string/touchscreen_gesture_settings_summary">
-            <intent
-                    android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.lineageos.lineageparts.gestures"
-                    android:targetClass="org.lineageos.lineageparts.gestures.TouchscreenGestureSettings" />
-        </Preference>
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:title="@string/category_vibrator">
         <org.lineageos.device.DeviceSettings.VibratorStrengthPreference
             android:key="vib_strength"
